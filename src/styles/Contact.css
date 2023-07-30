@@ -1,0 +1,44 @@
+.contactSection {
+    display: flex;
+    background-color: #f7f6f6;
+}
+
+.leftContact {
+    padding: 5em 0 5em 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactCard {
+    display: flex;
+
+}
+
+.leftPortion {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.leftPortion>svg {
+    height: 40px;
+}
+
+.rightPortion {
+    padding: 0 2em;
+    width: 66%;
+}
+
+.rightPortion>p {
+    color: var(--parah-color);
+}
+
+.rightContact {
+    width: 70%;
+}

@@ -1,0 +1,49 @@
+.blogsSection {
+    padding: 5em;
+    text-align: center;
+}
+
+.blogCardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.blogCard {
+    width: 300px;
+}
+
+.blogImage {
+    width: 100%;
+}
+
+.midContainer {
+    padding: 1em 2em;
+}
+
+.blogSticker {
+    padding: 0.2em 1em;
+    border: none;
+    color: white;
+    margin-right: 0.7em;
+}
+
+.blogDate {
+    font-size: 0.9em;
+    color: var(--parah-color);
+}
+
+.blogLink {
+    color: black;
+    text-decoration: none;
+}
+
+.blogLink:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.blogHeading {
+    padding: 0 2em 2em 2em;
+}

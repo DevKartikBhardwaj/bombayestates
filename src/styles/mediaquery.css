@@ -1,0 +1,169 @@
+@media screen and (max-width:1026px) {
+
+    .midNav,
+    .rightNav {
+        display: none;
+    }
+
+    .threeSticks {
+        display: block;
+    }
+
+    footer {
+        padding: 5em 0;
+        flex-wrap: wrap;
+    }
+
+    .footerContainer {
+        margin-bottom: 1em;
+        text-align: center;
+        width: 200px;
+        flex-direction: column;
+    }
+
+    .footerContainer1 {
+        align-items: center;
+    }
+
+    .footerContainer1>p {
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .navbar {
+        margin: 0;
+    }
+
+    .bannerContentWrapper {
+        width: 100%;
+        background-color: #0000001f;
+    }
+
+    .rightContact {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #bannerHeading {
+        font-size: 2rem;
+        text-align: center;
+        padding: 4em 1.5em 0 1.5em;
+    }
+
+    .bannerBtn {
+        margin-left: 4rem;
+    }
+
+
+    .formWrapper {
+        padding: 2em 0;
+    }
+
+    .selects {
+        width: 12em;
+    }
+
+    .rangeWrapper {
+        width: 85%;
+    }
+
+    .rangeInputs {
+        width: 100%;
+    }
+
+    .propertyFormBtn {
+        width: 85%;
+    }
+
+    #serviceSection {
+        padding: 2em;
+    }
+
+    #exclusiveProperties {
+        padding: 2em;
+    }
+
+    .propertyCard {
+        margin-bottom: 11em;
+    }
+
+    .workflow {
+        padding: 2em;
+    }
+
+    .testimonials {
+        padding: 2em;
+    }
+
+    .testimonialCard {
+        height: unset;
+        width: unset;
+    }
+
+    .agentsSection {
+        padding: 2em;
+    }
+
+    .blogsSection {
+        padding: 2em;
+    }
+
+    .contactCard {
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    .leftContact {
+        padding: 3em 0 3em 1.8em;
+    }
+
+    .leftPortion {
+        height: 50px;
+        width: 50px;
+    }
+
+    .leftPortion>svg {
+        height: 20px;
+    }
+
+    .rightPortion {
+        padding: 0 0 0 2em;
+    }
+
+    /* footer styling */
+
+    footer {
+        justify-content: space-evenly;
+        padding: 2em 0;
+    }
+
+    .footerContainer {
+        justify-content: space-between;
+
+    }
+
+    .footerContainer1 {
+        display: none;
+    }
+
+    .footerContainer2,
+    .footerContainer3 {
+        width: 100px;
+    }
+
+    .footerContainer4 {
+        padding-top: 2em;
+        width: 85%;
+    }
+
+    /* //utilities */
+    .primaryHeading {
+        font-size: 30px;
+    }
+
+    .secondaryHeading {
+        font-size: 18px;
+    }
+}

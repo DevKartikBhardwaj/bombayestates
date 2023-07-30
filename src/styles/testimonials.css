@@ -1,0 +1,48 @@
+.testimonials {
+    padding: 5em;
+    text-align: center;
+}
+
+.carousel {
+    overflow: hidden;
+    width: 80vw;
+    height: 450px;
+    border: 2px solid red;
+}
+
+.testimonialCard {
+    display: inline-block;
+    color: black;
+    /* height: 400px; */
+    padding: 2em;
+    width: 400px;
+    margin-right: 5px;
+    background-color: #f7f6f6;
+    color: black;
+    box-shadow: 0 4px 10px rgb(224 208 208);
+}
+
+.testimonialContent {
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+
+.bottomContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottomContainer>img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.rightContainer>h3 {
+    color: var(--parah-color);
+}
+
+.react-multi-carousel-track {
+    padding: 1em 0;
+}

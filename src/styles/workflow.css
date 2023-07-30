@@ -1,0 +1,72 @@
+.workflow {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/workflow.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: grey;
+    background-blend-mode: multiply;
+    padding: 5em;
+    text-align: center;
+    color: white;
+    z-index: -3;
+}
+
+.stepNum {
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+    font-size: 70px;
+    background-color: var(--secondary-color);
+    position: relative;
+}
+
+/* .stepNum::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    border: 8px solid var(--primary-color);
+    z-index: -1;
+    transition: all 0.15s ease-in-out;
+
+} */
+
+.workflowCardWrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.workflowcard {
+    padding: 15px;
+    width: 387px;
+    cursor: pointer;
+}
+
+.workflowcard>h3 {
+    margin: 9px;
+    font-size: 24px;
+}
+
+#workflowparah {
+    color: #d0d0d0;
+}
+
+/* .workflowcard:hover .stepNum::before {
+    top: -7px;
+    left: -7px;
+    bottom: -7px;
+    right: -7px;
+} */
+
+.workflowcard:hover .stepNum {
+    box-shadow: 0px 5px 10px #000000;
+}

@@ -1,0 +1,88 @@
+footer {
+    padding: 5em;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+.footerContainer1>p {
+    margin: 1em 7em 1em 0;
+    color: var(--parah-color);
+}
+
+.logoContainer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.mediaLogosContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.mediaLogosContainer>a {
+    height: 2em;
+    width: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #1d7f6b;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.mediaLogosContainer>a:hover {
+
+    background-color: rgb(47, 244, 204);
+    color: black;
+
+}
+
+.footerContainer2>a,
+.footerContainer3>a {
+    color: gray;
+}
+
+.footerContainer2>a:hover,
+.footerContainer3>a:hover {
+    color: white;
+}
+
+.footerContainer4 {
+    margin-top: -7px;
+}
+
+.footerContainer4>h6 {
+    font-size: 1em;
+    color: var(--primary-color);
+}
+
+.footerContainer4>input {
+    border: none;
+    outline: none;
+    padding: 0.8em 1em;
+    color: var(--primary-color);
+}
+
+.footerContainer4>input::placeholder {
+    color: var(--primary-color);
+}
+
+.footerContainer4>button {
+    border-radius: 0;
+    cursor: pointer;
+}

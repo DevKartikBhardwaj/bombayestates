@@ -1,0 +1,12 @@
+.propertiesInStock {
+    padding: 5em;
+    text-align: center;
+    position: relative;
+    z-index: 20;
+    background-color: whitesmoke;
+}
+
+.propertiesCardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
