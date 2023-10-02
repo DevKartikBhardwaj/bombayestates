@@ -13,12 +13,10 @@ Live preview : - [Bombayestates](https://bombayestates-bkta86j4k-devkartikbhardw
 **Client:** React, vanilla-css
 
 
-## Authors
 
-- [@DevKartikBhardwaj](https://www.github.com/DevKartikBhardwaj)
 
 
 ## Screenshots
 
-![App Screenshot](https://github.com/DevKartikBhardwaj/bombayestates/blob/master/src/images/propertycard/p1.jpg)
+![Home Page](https://github.com/DevKartikBhardwaj/bombayestates/assets/102840713/07f0550e-c8df-4610-8c04-9ea0f886fe87)
 
