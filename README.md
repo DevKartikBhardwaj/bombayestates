@@ -13,8 +13,7 @@ Live preview : - [Bombayestates](https://bombayestates-bkta86j4k-devkartikbhardw
 **Client:** React, vanilla-css
 
 
-
-## Screenshots of the project![snap](https://github.com/DevKartikBhardwaj/bombayestates/assets/102840713/ba8168cc-382b-4bb1-85ae-c97a37214f00)
+## Screenshots of the project
 
 ![Home Page](https://github.com/DevKartikBhardwaj/bombayestates/assets/102840713/07f0550e-c8df-4610-8c04-9ea0f886fe87)
 
